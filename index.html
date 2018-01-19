@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add New Movie</title>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <form class="add_movie_form" id="add_movie_form">
+    <h1>
+        <center>Add a New Movie</center> 
+    </h1>
+    <label for="name">Movie Name</label>
+    <input type="text" name="name"/>
+    <label for="releaseYear">Release Year</label>
+    <input type="text" name="releaseYear"/>
+    <div class="divide">
+     <label for="language">Language</label>
+    <select name="language">
+        <option value="english">English</option>
+        <option value="tamil">Tamil</option>
+        <option value="malayalam">Malayalam</option>
+    </select>
+</div>
+    <div class="divide">
+    <label for="ratings">Ratings</label>
+    <select name="ratings">
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+        <option value="four">four</option>
+        <option value="five">five</option>
+     </select>
+     </div>
+
+   <label for="thumbnailUrl">Thumbnail URL</label>
+   <input type="url" name="thumbnailUrl"/>
+
+   <label for="plot">Plot</label>
+   <textarea rows="5" name="plot"></textarea>
+
+   <label for="Poster URL">Poster URL</label>
+   <input type="url" name="Poster URL"/>
+
+   <label for="cast">Cast</label>
+   <textarea rows="5" name="Cast"></textarea>
+
+   <input type="submit" value="submit"/>
+ </form>
+</body>
+</html>
